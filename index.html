@@ -26,27 +26,23 @@
         <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Productos</a>
+        <a class="nav-link" href="#">Nosotros</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Contactos
+          Productos
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Promociones</a>
+          <a class="dropdown-item" href="#">Carrito de compras</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="#">Seguimiento de pedidos</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contactanos</a>
       </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
 
@@ -60,34 +56,56 @@
   <div class="carousel-inner">
 
     <div class="carousel-item active">
-      <img src="images/nuevocafe.jpg" class="d-block w-100 " alt="uno">
+      <img src="images/tienda1.jpeg" class="d-block w-100 " alt="uno">
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <h5>Venta online</h5>
+        <p>Rapida y efectiva</p>
       </div>
+
+      <div class="captionresalte">
+        <h2>Realiza todas tus compras!</h2>
+        <p>Con total garantia</p>
+          <div class="botonmsg p-2">
+          Suscribete
+          </div>
+      </div>
+
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/tienda2.jpeg" class="d-block w-100" alt="dos">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Pagina Web online</h5>
+        <p>Para seguir tus compras</p>
+      </div>
+
+      <div class="captionresalte">
+        <h2>Seguimiento de pedidos</h2>
+        <p>En linea y actualizados!</p>
+      </div>
+
     </div>
     <div class="carousel-item">
-      <img src="images/nuevocafe1.jpeg" class="d-block w-100" alt="dos">
+      <img src="images/tienda3.jpeg" class="d-block w-100" alt="tres">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        <h5>App actualizada</h5>
+        <p>Miles de aplicaciones</p>
       </div>
-    </div>
-    <div class="carousel-item">
-      <img src="images/nuevocafe2.jpeg" class="d-block w-100" alt="tres">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+
+      <div class="captionresalte resalte py-2 px-3">
+        <h2>Variedad de aplicaciones</h2>
+        <p>Mas de 100 productos para elegir!</p>
       </div>
+
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
+    <span class="sr-only">Anterior</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
+    <span class="sr-only">Siguiente</span>
   </a>
 </div>
 
