@@ -15,6 +15,9 @@
     border: 3px solid ;
     text-align: center;
 }
+.titulo{
+    font-size: 36px;
+}
 .resalte{
     background-color: #ccc;
     opacity: 0.8;
@@ -25,4 +28,17 @@
     background-color: #fff;
     color: black;
     cursor: pointer;
+}
+
+@media (max-width: 380px) {
+
+.captionresalte{
+    bottom: 20%;
+    left: 5%;
+}
+
+.titulo{
+    font-size: 24px;
+}
+
 }
