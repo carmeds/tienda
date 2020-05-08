@@ -46,8 +46,42 @@
     display: flex;
     justify-content: center;
 }
-/*Para aplicaciones moviles*/
 
+.fondo3{
+    background-color:#f0fafd;
+}
+
+.cuadro1{
+    background-image:url("../images/nuevocafe.jpg");
+    width: 30rem;
+}
+
+.cuadro2{
+    background-image:url("../images/nuevocafe1.jpeg");
+    width: 15rem;
+}
+
+.cuadro3{
+    background-image:url("../images/nuevocafe2.jpg");
+    width: 15rem;
+}
+
+.cuadro1,.cuadro2,.cuadro3{
+    background-size: auto;
+    background-repeat: round;
+    height: 15rem;
+
+}
+
+.mititulo{
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    font-size: 36px;
+}
+
+
+/*Para aplicaciones moviles*/
 
 @media (max-width: 420px) {
 
@@ -61,7 +95,7 @@
 }
 
 .tarjeta{
-    width: 10rem;
+    width: 9rem;
 }
 
 .tesfera{
@@ -76,6 +110,18 @@
 .menufooter{
     display: flex;
     justify-content: left;
+}
+
+.cuadro1,.cuadro2,.cuadro3{
+    width: 13rem;
+    height: 8rem;
+}
+
+.mititulo{
+    position: absolute;
+    bottom: 25%;
+    left: 5%;
+    font-size: 24px;
 }
 
 }
