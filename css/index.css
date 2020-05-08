@@ -30,6 +30,25 @@
     cursor: pointer;
 }
 
+.tarjeta{
+    width: 15rem;
+}
+
+.esfera{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;  
+    box-shadow: 0 0 8px 000; 
+    background-color: #fff; 
+}
+
+.menufooter{
+    display: flex;
+    justify-content: center;
+}
+/*Para aplicaciones moviles*/
+
+
 @media (max-width: 420px) {
 
 .captionresalte{
@@ -39,6 +58,24 @@
 
 .titulo{
     font-size: 24px;
+}
+
+.tarjeta{
+    width: 10rem;
+}
+
+.tesfera{
+    font-size: 25px;
+}
+
+
+.tarjeta > .card-body >.card-text, .textod{
+    display: none;
+}
+
+.menufooter{
+    display: flex;
+    justify-content: left;
 }
 
 }
