@@ -30,7 +30,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 420px) {
 
 .captionresalte{
     bottom: 20%;
